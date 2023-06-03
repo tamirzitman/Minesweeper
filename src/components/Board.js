@@ -2,8 +2,8 @@
 import createBoard from "../util/createBoard";
 import Cell from "./Cell";
 import { revealed } from "../util/reveal";
-import Modal from "./Modal";
-import Timer from "./Timer";
+// import Modal from "./Modal";
+// import Timer from "./Timer";
 
 const Board = () => {
   const [grid, setGrid] = useState([]);

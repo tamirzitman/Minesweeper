@@ -1,6 +1,6 @@
 ﻿import React from "react";
 
-export default function Cell({ details, updateFlagm, revealCell }) {
+export default function Cell({ details, updateFlag, revealCell }) {
   return (
     <div
       onContextMenu={(e) => updateFlag(e, details.x, details.y)}
